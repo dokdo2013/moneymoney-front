@@ -31,6 +31,7 @@
 				title: '등록 실패',
 				text: '금액을 0원 이상으로 입력해주세요.'
 			});
+			is_loading = false;
 			return false;
 		}
 
