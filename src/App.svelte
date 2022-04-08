@@ -3,7 +3,7 @@
 	// 결제수단 (토스뱅크카드, 케이뱅크카드, 부천페이, 카카오뱅크체크, 하나카드, 신한딥드림, 신한카카오페이, 부산썸뱅크, 국민체크7157, 현금결제)
 	// 결제금액, 비고
 
-	import { FormGroup, Input, Button } from 'sveltestrap';
+	import { FormGroup, Input, Button, Spinner } from 'sveltestrap';
 	import { Pincode, PincodeInput} from 'svelte-pincode';
 	import moment from 'moment';
 	import axios from 'axios';
@@ -197,7 +197,11 @@
 				</Pincode>
 			</div>
 			<div style="margin: 30px 0">
-				<Button disabled={is_loading} block>등록</Button>
+				<Button disabled={is_loading} block>
+					{#if is_loading}
+						<Spinner size="sm" />
+					{/if}
+					등록</Button>
 			</div>
 		</form>
 	</div>
