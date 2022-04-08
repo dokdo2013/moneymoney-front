@@ -18,7 +18,19 @@
 	let data_etc = '';
 	let code = [];
   let value = "";
-	var is_loading = false;
+	let is_loading = false;
+
+	const reset = () => {
+		data_date = moment().format('YYYY-MM-DD');
+		data_category = '식비';
+		data_pay_method = '토스뱅크카드';
+		data_item = '';
+		data_item_detail = '';
+		data_price = 0;
+		data_etc = '';
+		code = [];
+		value = "";
+	}
 
 	const handleSubmit = () => {
 		is_loading = true;
@@ -56,6 +68,7 @@
 						title: '등록 성공',
 						text: '지출내역 등록에 성공했어요.'
 					});
+					reset();
 				} else {
 					Swal.fire({
 						icon: 'error',
