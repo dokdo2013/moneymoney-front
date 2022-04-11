@@ -57,10 +57,13 @@
 			etc: data_etc,
 			otpCode: value
 		};
-
-		// const api_url = 'https://pr5wq459k5.execute-api.ap-northeast-2.amazonaws.com/dev/';
-		const api_url = 'https://v4bti9c0t3.execute-api.ap-northeast-2.amazonaws.com/v1/';
-		axios.post(api_url + 'money', formDto)
+                let api_url = '';
+                if (window.location.hostname === 'dev-money.haenu.com') {
+		        api_url = 'https://pr5wq459k5.execute-api.ap-northeast-2.amazonaws.com/dev/';
+		} else { 
+                        api_url = 'https://v4bti9c0t3.execute-api.ap-northeast-2.amazonaws.com/v1/';
+		}
+                axios.post(api_url + 'money', formDto)
 			.then(response => {
 				if (response.status === 200) {
 					Swal.fire({
