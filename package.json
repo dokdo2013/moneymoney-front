@@ -22,7 +22,7 @@
     "bootstrap": "5.2.2",
     "moment": "2.29.4",
     "sirv-cli": "2.0.2",
-    "svelte-pincode": "2.0.1",
+    "svelte-pincode": "2.2.0",
     "sveltestrap": "5.9.0",
     "sweetalert2": "11.4.8"
   }
