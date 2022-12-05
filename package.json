@@ -18,7 +18,7 @@
     "svelte": "3.53.1"
   },
   "dependencies": {
-    "axios": "1.2.0",
+    "axios": "1.2.1",
     "bootstrap": "5.2.3",
     "moment": "2.29.4",
     "sirv-cli": "2.0.2",
