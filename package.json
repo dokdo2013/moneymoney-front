@@ -24,6 +24,6 @@
     "sirv-cli": "2.0.2",
     "svelte-pincode": "2.2.0",
     "sveltestrap": "5.10.0",
-    "sweetalert2": "11.7.16"
+    "sweetalert2": "11.7.18"
   }
 }
