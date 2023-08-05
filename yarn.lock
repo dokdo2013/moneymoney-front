@@ -73,10 +73,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@popperjs/core@^2.9.2":
-  version "2.11.4"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.4.tgz#d8c7b8db9226d2d7664553a0741ad7d0397ee503"
-  integrity sha512-q/ytXxO5NKvyT37pmisQAItCFqA7FD/vNb8dgaJy3/630Fsc+Mz9/9f2SziBoIZ30TJooXyTwZmhi1zjXmObYg==
+"@popperjs/core@^2.11.8":
+  version "2.11.8"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
+  integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
 "@rollup/plugin-commonjs@25.0.3":
   version "25.0.3"
@@ -809,12 +809,12 @@ svelte@4.1.2:
     magic-string "^0.30.0"
     periscopic "^3.1.0"
 
-sveltestrap@5.10.0:
-  version "5.10.0"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.10.0.tgz#4bea3caf06849f20cfcd97c4687256111dc76e9e"
-  integrity sha512-k6Ob+6G2AMYvBidXHBKM9W28fJqFHbmosqCe/NC8pv6TV7K+v47Yw+zmnLWkjqCzzmjkSLkL48SrHZrlWc9mYQ==
+sveltestrap@5.11.0:
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.11.0.tgz#d44b494e6cc0a44175265153343bae2b67d46db2"
+  integrity sha512-oRFJw6Ai+JIAVV08H/Z3jJGbXIjAwV+iQLrXUh/hFc+aZyV2jZhOeO9M4o6FSbqe6O/9WX5CWB8Mm7k6FArqAg==
   dependencies:
-    "@popperjs/core" "^2.9.2"
+    "@popperjs/core" "^2.11.8"
 
 sweetalert2@11.7.20:
   version "11.7.20"
