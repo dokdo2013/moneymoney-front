@@ -790,10 +790,10 @@ svelte-pincode@2.2.0:
   resolved "https://registry.yarnpkg.com/svelte-pincode/-/svelte-pincode-2.2.0.tgz#b2f16d45df7f137fa5b0ea5fa10fdb1f28e5597e"
   integrity sha512-zT2jOHffZqQ1dLmFAojfkdssKr8HGq1uSZQK1TCwD1/Mjrw2EGuKppQOh0q2pobm8AAGhvk7LKHnFtRUKsz80A==
 
-svelte@4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-4.1.2.tgz#fc022854b029b04491e086e0eda7312b4b233eeb"
-  integrity sha512-/evA8U6CgOHe5ZD1C1W3va9iJG7mWflcCdghBORJaAhD2JzrVERJty/2gl0pIPrJYBGZwZycH6onYf+64XXF9g==
+svelte@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-4.2.0.tgz#0e4304c15524450b22fba02516eb72efbd8847b6"
+  integrity sha512-kVsdPjDbLrv74SmLSUzAsBGquMs4MPgWGkGLpH+PjOYnFOziAvENVzgJmyOCV2gntxE32aNm8/sqNKD6LbIpeQ==
   dependencies:
     "@ampproject/remapping" "^2.2.1"
     "@jridgewell/sourcemap-codec" "^1.4.15"
