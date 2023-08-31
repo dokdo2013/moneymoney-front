@@ -809,10 +809,10 @@ svelte@4.2.0:
     magic-string "^0.30.0"
     periscopic "^3.1.0"
 
-sveltestrap@5.11.1:
-  version "5.11.1"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.11.1.tgz#9c1fe84837c4c5f81807141680fbaadf76ba5ea2"
-  integrity sha512-FIvPIEU1VolqMN1wi2XrC8aehWVbIJEST7zPfPbOUUfPimyx9giN4nA3We5wkXrBUaifXA8CSIwuHFvf3CmYQw==
+sveltestrap@5.11.2:
+  version "5.11.2"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.11.2.tgz#2581ae96e01ef0cc3860c041fe3388c50ae26b0f"
+  integrity sha512-fkLqIUh2QHBoom7v6kHI85grLeOqplmvtnTiA5Ck2gchzpVmwXWaWpf8qWhCFxfDuMhJBPlWbJvtSmwpDEowrg==
   dependencies:
     "@popperjs/core" "^2.11.8"
 
