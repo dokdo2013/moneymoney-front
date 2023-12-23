@@ -23,7 +23,7 @@
     "moment": "2.29.4",
     "sirv-cli": "2.0.2",
     "svelte-pincode": "2.2.0",
-    "sveltestrap": "5.11.2",
+    "sveltestrap": "5.11.3",
     "sweetalert2": "11.10.1"
   }
 }
