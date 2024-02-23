@@ -868,10 +868,10 @@ svelte-pincode@2.2.0:
   resolved "https://registry.yarnpkg.com/svelte-pincode/-/svelte-pincode-2.2.0.tgz#b2f16d45df7f137fa5b0ea5fa10fdb1f28e5597e"
   integrity sha512-zT2jOHffZqQ1dLmFAojfkdssKr8HGq1uSZQK1TCwD1/Mjrw2EGuKppQOh0q2pobm8AAGhvk7LKHnFtRUKsz80A==
 
-svelte@4.2.11:
-  version "4.2.11"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-4.2.11.tgz#b1a57a41d01686b4f7230611f89a5c25b23a1745"
-  integrity sha512-YIQk3J4X89wOLhjsqIW8tqY3JHPuBdtdOIkASP2PZeAMcSW9RsIjQzMesCrxOF3gdWYC0mKknlKF7OqmLM+Zqg==
+svelte@4.2.12:
+  version "4.2.12"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-4.2.12.tgz#13d98d2274d24d3ad216c8fdc801511171c70bb1"
+  integrity sha512-d8+wsh5TfPwqVzbm4/HCXC783/KPHV60NvwitJnyTA5lWn1elhXMNWhXGCJ7PwPa8qFUnyJNIyuIRt2mT0WMug==
   dependencies:
     "@ampproject/remapping" "^2.2.1"
     "@jridgewell/sourcemap-codec" "^1.4.15"
